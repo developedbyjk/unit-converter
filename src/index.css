@@ -1,0 +1,106 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@500&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+html,body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #002147;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.box{
+  margin-top: 50px;
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  
+  border:0.5px solid white;
+  border-radius: 5px;
+
+}
+
+.box .header{
+  background: #03045e;
+  height: 250px;
+  display: flex;
+  align-items:center;
+  justify-content: space-around;
+  flex-direction: column;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-bottom: 1px solid white;
+}
+.header h1{
+  margin: 0;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.header input{
+  height: 80px;
+  width: 115px;
+  background-color: #03045e;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+.number-input::-webkit-inner-spin-button,
+.number-input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+.number-input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.header button{
+
+padding: 9px 27.5px;
+border-radius: 5px;
+background: #FFF;
+
+/* shadow/sm */
+box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.tab{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+height: 90px;
+flex-shrink: 0;
+border-radius: 4.681px 0px 0px 0px;
+background: #03045e;
+color: aliceblue;
+border-bottom: 1px solid white;
+
+}
+
+.tab .part{
+ 
+
+  
+}
+.tab h3,p{
+  margin: 7px;
+}
