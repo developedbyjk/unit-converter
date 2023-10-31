@@ -50,14 +50,14 @@ function App() {
             <div className="part">
               <h3>Meter</h3>
               <p>
-                {val} meters = {feet.toFixed(3)} feet 
+                {val} meters = {feet !== null ? feet.toFixed(3) : 'N/A'} feet 
               </p>
             </div>
 
             <div className="part">
               <h3>Feet</h3>
               <p>
-               {val} feet = {meter.toFixed(3)} meters
+               {val} feet = {meter !== null ? meter.toFixed(3) : 'N/A'} meters
               </p>
             </div>
             
@@ -69,14 +69,14 @@ function App() {
           <div className="part">
               <h3>Liter</h3>
               <p>
-              {val} liters = {liter.toFixed(3)} gallons 
+              {val} liters = {liter !== null ? liter.toFixed(3) : 'N/A'} gallons 
               </p>
             </div>
 
             <div className="part">
               <h3>gallons</h3>
               <p>
-              {val} gallons = {gallons.toFixed(3)} liters
+              {val} gallons = {gallons !== null ? gallons.toFixed(3) : 'N/A'} liters
               </p>
             </div>
 
@@ -88,14 +88,14 @@ function App() {
           <div className="part">
               <h3>Kilograms</h3>
               <p>
-              {val} kilos = {kilograms.toFixed(3)} pounds 
+              {val} kilos = {kilograms !== null ? kilograms.toFixed(3) : 'N/A'} pounds 
               </p>
             </div>
 
             <div className="part">
               <h3>Pounds</h3>
               <p>
-              {val} pounds = {pounds.toFixed(3)} kilos
+              {val} pounds = {pounds !== null ? pounds.toFixed(3) : 'N/A'} kilos
               </p>
             </div>
             
