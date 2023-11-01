@@ -1,8 +1,5 @@
-# React + Vite
+# Easy Unit Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is unit converter made with react js that allow you to conver differnet units in one time
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![carbon](https://github.com/developedbyjk/unit-converter/assets/71823598/5d0ec450-d761-4cec-9c6e-233b31f2f80f)
